@@ -83,6 +83,26 @@ ML-Internship-Projects
 - Interactive visualization of results
 
 ---
+## Results
+
+### House Price Prediction
+Actual vs predicted house prices using Ridge Regression.
+
+![House Price Prediction](images/house_price_prediction.png)
+
+### Customer Segmentation
+Finding optimal clusters using the Elbow Method.
+
+![Elbow Method](images/elbow_method.png)
+
+Customer segmentation visualization.
+
+![Customer Segmentation](images/customer_clusters.png)
+
+### Dogs vs Cats Classification
+Confusion matrix showing model performance.
+
+![Confusion Matrix](images/dogs_vs_cats_confusion_matrix.png)
 
 ## Author
 
