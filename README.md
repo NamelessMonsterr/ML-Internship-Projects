@@ -39,14 +39,7 @@ Each task explores different concepts such as **regression, clustering, classica
 - **Matplotlib**
 - **Seaborn**
 - **OpenCV**
-
----ML-Internship-Projects
-│
-├── tasks-1-3.ipynb
-├── task-4.ipynb
-└── task-5.ipynb
-
-
+- 
 ---
 
 ## 📊 What I Learned
@@ -80,3 +73,9 @@ If you're interested in AI/ML or want to collaborate:
 ⭐ If you found this repository useful, consider giving it a star!
 
 ## 📂 Repository Structure
+
+ML-Internship-Projects
+│
+├── tasks-1-3.ipynb
+├── task-4.ipynb
+└── task-5.ipynb
