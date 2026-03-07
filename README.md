@@ -42,6 +42,13 @@ Each task explores different concepts such as **regression, clustering, classica
 - 
 ---
 
+## Datasets Used
+
+• Kaggle House Prices Dataset  
+• Mall Customer Segmentation Dataset  
+• Dogs vs Cats Image Dataset  
+• LeapGestRecog Hand Gesture Dataset  
+• Food-101 Dataset
 ## 📊 What I Learned
 
 Through these projects I gained hands-on experience in:
