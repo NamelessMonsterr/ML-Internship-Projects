@@ -1,37 +1,23 @@
 # Machine Learning Internship Projects
 
-This repository contains a collection of Machine Learning and Deep Learning projects completed during my internship.  
-The tasks cover multiple core areas of machine learning including regression, clustering, classical machine learning, and deep learning for computer vision.
+This repository contains the machine learning and deep learning tasks completed during my internship.  
+The projects cover multiple areas of machine learning including regression, clustering, classical machine learning, and computer vision using deep learning.
 
 ---
 
-## Projects Included
+# Projects Overview
 
-### 1. House Price Prediction
-- Model: Ridge Regression
-- Objective: Predict house sale prices using structured housing dataset features.
-
-### 2. Customer Segmentation
-- Algorithm: K-Means Clustering
-- Objective: Group customers based on purchasing behavior and patterns.
-
-### 3. Dogs vs Cats Classification
-- Model: Support Vector Machine (SVM)
-- Objective: Classify images as either a dog or a cat.
-
-### 4. Hand Gesture Recognition
-- Model: Convolutional Neural Network (CNN)
-- Dataset: LeapGestRecog
-- Objective: Recognize hand gestures from image inputs.
-
-### 5. Food Image Classification
-- Model: MobileNetV2 (Transfer Learning)
-- Dataset: Food-101
-- Objective: Classify food images into different categories.
+| Task | Project | Technique |
+|-----|--------|----------|
+| Task 1 | House Price Prediction | Ridge Regression |
+| Task 2 | Customer Segmentation | K-Means Clustering |
+| Task 3 | Dogs vs Cats Classification | Support Vector Machine (SVM) |
+| Task 4 | Hand Gesture Recognition | Convolutional Neural Network (CNN) |
+| Task 5 | Food Image Classification | Transfer Learning (MobileNetV2) |
 
 ---
 
-## Technologies Used
+# Technologies Used
 
 - Python
 - NumPy
@@ -44,68 +30,133 @@ The tasks cover multiple core areas of machine learning including regression, cl
 
 ---
 
-## Datasets Used
+# Task 1 – House Price Prediction
 
-- Kaggle House Prices Dataset  
-- Mall Customer Segmentation Dataset  
-- Dogs vs Cats Image Dataset  
-- LeapGestRecog Hand Gesture Dataset  
-- Food-101 Dataset
+A regression model was built to predict housing prices using structured housing data.
+
+**Model Used**
+
+- Ridge Regression
+
+**Result Visualization**
+
+![House Price Prediction](images/house_price_prediction.png)
 
 ---
 
-## Repository Structure
+# Task 2 – Customer Segmentation
+
+K-Means clustering was applied to group customers based on spending behavior.
+
+**Techniques Used**
+
+- Elbow Method
+- Silhouette Score
+- K-Means Clustering
+
+**Cluster Visualization**
+
+![Customer Segmentation](images/customer_clusters.png)
+
+---
+
+# Task 3 – Dogs vs Cats Classification
+
+A classical machine learning model was trained to classify images of dogs and cats.
+
+**Model Used**
+
+- Support Vector Machine (SVM)
+
+**Evaluation**
+
+![Confusion Matrix](images/dogs_vs_cats_confusion_matrix.png)
+
+---
+
+# Task 4 – Hand Gesture Recognition (CNN)
+
+A Convolutional Neural Network was trained to recognize different hand gestures from images.
+
+### Model Architecture
+
+![CNN Architecture](images/cnn_model_architecture.png)
+
+### Training Performance
+
+![Training Curves](images/gesture_training_curves.png)
+
+### Evaluation Results
+
+![Gesture Confusion Matrix](images/gesture_confusion_matrix.png)
+
+Accuracy achieved: **~100%**
+
+---
+
+# Task 5 – Food Image Classification (Transfer Learning)
+
+Transfer learning was used to classify food images using a pretrained **MobileNetV2** model.
+
+### Model Architecture
+
+![MobileNet Architecture](images/mobilenet_architecture.png)
+
+### Training Performance
+
+![Food Training Curves](images/food_training_curves.png)
+
+Validation Accuracy: **~49%**  
+Top-5 Accuracy: **~76%**
+
+---
+
+# Repository Structure
 ML-Internship-Projects
 │
 ├── tasks-1-3.ipynb
 ├── task-4.ipynb
-└── task-5.ipynb
+├── task-5.ipynb
+│
+├── images
+│ ├── house_price_prediction.png
+│ ├── customer_clusters.png
+│ ├── dogs_vs_cats_confusion_matrix.png
+│ ├── cnn_model_architecture.png
+│ ├── gesture_training_curves.png
+│ ├── gesture_confusion_matrix.png
+│ ├── mobilenet_architecture.png
+│ └── food_training_curves.png
+│
+└── README.md
 
 
 ---
 
-## Key Learning Outcomes
+# Key Learning Outcomes
 
-- Data preprocessing and feature scaling
-- Supervised learning (Regression and Classification)
+Through these projects I gained practical experience in:
+
+- Data preprocessing and feature engineering
+- Supervised learning (Regression & Classification)
 - Unsupervised learning (Clustering)
-- Image classification techniques
-- Convolutional Neural Networks
-- Transfer learning with pretrained models
+- Image classification using CNNs
+- Transfer learning using pretrained deep learning models
+- Model evaluation and visualization
 
 ---
 
-## Future Improvements
+# Future Improvements
 
 - Hyperparameter tuning
 - Model optimization
-- Model deployment using Flask or FastAPI
-- Interactive visualization of results
+- Deploying models using Flask / FastAPI
+- Creating interactive demos for predictions
 
 ---
-## Results
 
-### House Price Prediction
-Actual vs predicted house prices using Ridge Regression.
-
-![House Price Prediction](images/house_price_prediction.png)
-
-### Customer Segmentation
-Finding optimal clusters using the Elbow Method.
-
-![Elbow Method](images/elbow_method.png)
-
-Customer segmentation visualization.
-
-![Customer Segmentation](images/customer_clusters.png)
-
-### Dogs vs Cats Classification
-Confusion matrix showing model performance.
-
-![Confusion Matrix](images/dogs_vs_cats_confusion_matrix.png)
-
-## Author
+# Author
 
 Abdul Baseer Hammad
 
-If you found this repository useful, consider giving it a star.
+Machine Learning & AI Enthusiast
